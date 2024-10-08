@@ -1,0 +1,34 @@
+# Core Machine Learning and NLP libraries
+torch>=1.9.0
+transformers>=4.10.0
+datasets>=1.12.0  # For loading and preprocessing datasets
+
+# Tokenization and Language Models
+spacy>=3.0.0
+scispacy>=0.4.0  # For scientific NER
+nltk>=3.6.0  # For additional text preprocessing
+pdfminer.six>=20201018  # For PDF extraction
+
+# SHAP Explainability
+shap>=0.39.0
+
+# Distributed and Mixed-Precision Training
+tqdm>=4.62.0  # For progress bars
+apex  # If you use mixed-precision training, install NVIDIA's apex
+
+# AWS SDK for deployment
+boto3>=1.18.0  # For interacting with AWS S3
+
+# Data Visualization and EDA
+matplotlib>=3.4.0
+seaborn>=0.11.0
+wordcloud>=1.8.1
+
+# Optimization and Hyperparameter Tuning
+optuna>=2.8.0
+
+# Web and File Handling
+tqdm>=4.62.0  # For progress bars
+
+# Docker Integration
+docker>=5.0.0  # For building Docker images if needed for deployment
